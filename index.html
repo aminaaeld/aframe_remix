@@ -61,8 +61,8 @@
                 look-controls
                 fov="75">
     </a-entity>
-
-    <a-sound src="sound/Preludio em si bemol menor.mp3" autoplay="true" loop="true"></a-soundsrc>></a-sound>
+    <a-assets><audio id="background-music" src="sound/song.mp3"></audio></a-assets>
+    <a-entity sound="src: #background-music; autoplay: true; loop: true; volume: 4"></a-entity>
 </a-scene>
 </body>
 </html>
